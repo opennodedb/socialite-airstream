@@ -1,0 +1,19 @@
+{
+    "name": "opennodedb/socialite-airstream",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sam Greenwood",
+            "email": "sam@samgreenwood.me"
+        }
+    ],
+    "require": {
+        "laravel/socialite": "^3.0"
+    },
+    "autoload" :{ 
+        "psr-4": {
+            "OpenNodeDb\\Socialite\\": "src/"
+        }
+    }
+}
